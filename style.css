@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(bgimg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: rgb(238, 69, 125);
+    font-size: 35px;
+    font-family: sans-serif;
+    padding-right: 30px;
+    float: left;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+   list-style: none;
+   font-size: 15px;
+   margin-left: 68px;
+   margin-top: 28px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(238, 69, 125);
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    width: 190px;
+    height: 40px;
+    background-color:rgb(255, 255, 255);
+    border: 3px solid rgb(175, 16, 120);
+    font-family: sans-serif;
+    margin-top: 20px;
+    color: black;
+    border-right: none;
+    font-size: 15px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 90px;
+    height: 40px;
+    background-color: rgb(211, 19, 153);
+    border: 2px solid rgb(175, 16, 120);
+    margin-top: 20px;
+    margin-left: 10px;
+    color: rgb(241, 239, 243);
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: black;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    position: relative;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+}
+
+.content .paragraph{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: sans-serif;
+    letter-spacing: 1.1px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    padding-left: 20px;
+    margin-top: 8%;
+    letter-spacing: 2px;
+}
+.content .beti{
+    width: 120px;
+    height: 40px;
+    background:  rgb(246, 100, 124);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.content .beti a{
+    text-decoration: solid;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.beti:hover{
+    background-color: rgb(240, 58, 89);
+}
+.content span{
+    color: rgb(255, 61, 116);
+    font-size: 65px;
+}
+
+.form{
+    width:250px;
+    height: 380px;
+    margin-top: 8%;
+    margin-left: 5%;
+    border: 1px solid white;
+    background-color: rgb(248, 123, 156);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    background-color: rgb(10, 10, 10);
+    border-radius: 10px;
+    padding: 8px;
+    margin: 2px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #f70a0ae3;
+    border-top: none;
+    border-left: none;
+    border-right: none ;
+    color: antiquewhite;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jk{
+    width: 240px;
+    height: 40px;
+    background-color: rgb(255, 0, 85);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: crimson;
+    transition: 0.2s ease;
+}
+
+.jk:hover{
+    background-color: rgb(253, 75, 135);
+    color: rgb(128, 0, 34);
+}
+
+.jk a{
+    text-decoration: double;
+    color: rgb(194, 249, 132);
+    font-weight: bold;
+}
+
+.form .abc{
+    font-family: sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .abc a{
+    text-decoration: underline;
+    color: rgb(32, 94, 218);
+} 
+
+.efg{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: dotted;
+    color: rgb(240, 82, 82);
+}
+
+.icons ion-icon{
+    color: rgb(7, 7, 7);
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.2s ease;
+}
+
+.icons ion-icon:hover{
+    color: red;
+}
